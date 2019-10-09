@@ -97,7 +97,79 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header, footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+}
 
+header .content-wrapper {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+header nav {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+header nav ul {
+   display: flex;
+}
+
+footer .social-icons {
+   display: flex;
+}
+
+footer .social {
+   display: flex;
+}
+
+.hero-area {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+aside {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.features {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.features .features-items {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.reviews {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.mission {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.contact-section {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.faq {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+   display: flex;
+   flex-flow: row wrap;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +335,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
