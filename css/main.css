@@ -97,7 +97,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.content-wrapper {
+   width: 90%;
+   margin: 50px 0;
+}
 /* -------------------- Base Header - Footer Styles -------------------- */
+
 
 header,
 footer {
@@ -107,11 +113,22 @@ footer {
    flex-flow: row wrap;
 }
 
+header {
+   padding: 15px 0;
+}
+
 header .content-wrapper {
    display: flex;
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
+   margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -119,11 +136,28 @@ header nav {
    justify-content: space-around;
    align-items: center;
    flex-flow: row wrap;
+   width: 60%;
 }
 
 header nav ul {
    display: flex;
    justify-content: space-around;
+   width: 100%;
+}
+footer {
+  flex-direction: column;
+}
+
+footer p {
+     margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -137,10 +171,9 @@ footer .social-icons p {
   align-items: center;
 }
 
-footer .social {
-   display: flex;
+footer .copyright {
+  margin: 20px 0;
 }
-
 /* Hero Area */
 
 .hero-area {
@@ -171,13 +204,20 @@ aside {
    align-items: center;
    flex-flow: row wrap;
 }
+.features article {
+  width: 90%;
+}
 
+.features p {
+     margin: 0;
+}
 /* Reviews */
 
 .reviews {
    display: flex;
    justify-content: center;
    flex-flow: row wrap;
+   width: 50%;
 }
 
 /* ==========================================================================
