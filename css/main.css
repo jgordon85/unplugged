@@ -254,6 +254,7 @@ aside {
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
+   flex-basis: auto;
 }
 /* ==========================================================================
    Helper classes
@@ -344,15 +345,102 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet styles here */
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
+}
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+header .content-wrapper {
+  width: ;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  width:
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.header-divider {
+  display: none;
+}
+
+/* Hero Area */
+
+/* Aside */
+aside .content-wrapper {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: ;
+  margin: 0;
+}
+
+/* Features */
+
+.features article {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  flex-basis: auto;
+}
+
+.features .features-item-description {
+  width:
+}
+
+/* Review */
+
+.reviews article {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews article div {
+  width:
+}
+
+/* Footer */
+
+footer .content-wrapper {
+  width:
+  margin: 100px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+footer .copyright {
+  width:
+}
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */
 }
 
 /* ==========================================================================
