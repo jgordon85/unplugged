@@ -600,6 +600,10 @@ aside .content-wrapper .form {
   width 62%:
 }
 
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}
 /* Review */
 
 .reviews article {
